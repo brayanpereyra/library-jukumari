@@ -1,0 +1,32 @@
+{
+    "name": "jukumari/library-jukumari",
+    "version": "v1.0.0",
+    "description": "Base library for jukumari projects",
+    "type": "library",
+    "keywords" : [
+        "jukumari"
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "phpseclib/phpseclib": "^3.0",
+        "phroute/phroute": "^2.2",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ProcessMaker\\JukumariLib\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ProcessMaker\\JukumariLib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brayan Pereyra",
+            "email": "brayan@processmaker.com"
+        }
+    ]
+}
